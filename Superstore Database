@@ -1,0 +1,22 @@
+Select SUM(price)
+FROM superstore;
+
+Select AVG(price)
+FROM superstore;
+
+Select min(price)
+from superstore;
+
+Select max(price)
+from superstore;
+
+select count(price)
+from superstore;
+
+select avg(price)
+from superstore
+where category = 'kitchen supplies';
+
+select count(*) AirPurifierCount
+From superstore
+where item_name = 'Air Purifier';
